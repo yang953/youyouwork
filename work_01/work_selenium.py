@@ -22,7 +22,7 @@ def work_01(list_num):
         if b not in num_list:
             num_list.append(b)
 
-    print("出现次数最多的数字是：" + str(max_str),"\n按从小到大排序结果：" + str(min_str),"\n排序去从结果：" + str(num_list))
+    print("出现次数最多的数字是：" + str(max_str),"\n按从小到大排序结果：" + str(min_str),"\n排序去重结果：" + str(num_list))
 
 
 if __name__ == "__main__":
